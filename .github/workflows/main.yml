@@ -20,7 +20,7 @@ jobs:
         java-version: '17'
 
     - name: Compile
-      run: javac src/RevStrng/ReverseString.java
+      run: javac src/RevStrng/ReverseStrng.java
 
     - name: Run
-      run: java -cp src Main
+      run: java -cp src RevStrng.ReverseStrng
